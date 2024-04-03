@@ -1,0 +1,114 @@
+*{
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box;
+    font-weight: bolder;
+    font-size: 30px;
+    color: white;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgb(5, 132, 92);
+}
+.conteiner { 
+    border: 2px solid green; 
+    background-color: rgb(0,93,102);
+    padding: 50px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+#enviar:hover{
+    background-color: green;
+    border: none;
+    cursor: pointer;
+}
+.close:hover{
+    background-color: yellow;
+    color: black;
+    border: none;
+
+}
+.window { 
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    border-radius: 10px;
+    display: flex;
+    /* height: 100%; */
+    width: 70%;
+    /* padding: 30px; */
+    margin: 2px;
+    border: 7px solid green; 
+    background-color: rgb(0,93,102);
+    
+}
+.window button{
+    background-color: red;
+    border-radius: 10px;
+    margin: 0; 
+    padding: 10px;
+    border: none;
+}
+.menuHead {
+    padding: 30px;
+    border: 3px solid rgb(5, 132, 92);
+    background-color: rgb(5, 132, 92);
+}
+.menuHead button{ 
+    padding: 10px;
+    background-color: blue;
+    border-radius: 10px;
+    border: none;
+    text-transform: uppercase;
+}
+#task{
+    color:black
+}
+table {
+    /* width: 100%; */
+    flex: 1 1 auto;
+    position: relative;
+    /* border-collapse: collapse;  */
+
+}
+.celula { 
+    background-color: rgb(101, 152, 66);
+    text-align: center;
+    align-items: center;
+    border: 2px solid black; 
+    border-radius: 10px;
+    padding: 8px;
+    width: 90%;
+    height: 10px ;
+    text-transform: uppercase;
+    /* max-width: 600px; */
+    /* height: 50px; */
+}
+/* .buttonContainer { 
+    position: absolute;
+    top:0; 
+    right: -120px; 
+    display: flex;
+    flex-direction: column;
+} */
+td button {
+    float: right;
+    padding: 5px;
+    margin: 0px;
+    cursor: pointer;
+    /* margin-left: 10px;
+    width: 10px; */
+}
+footer { 
+    /* position: fixed; */
+    color: white;
+    background-color: rgb(5, 132, 92);
+    text-align: center;
+    font-size: small;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    padding: 20px;
+    margin: 0px;
+}
